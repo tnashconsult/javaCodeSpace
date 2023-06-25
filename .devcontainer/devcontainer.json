@@ -12,6 +12,13 @@
 			"installGradle": "false"
 		},
 		"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"vsls-contrib.codetour"
+			]
+		}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
